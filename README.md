@@ -12,4 +12,3 @@
 ## 주요 기능
 
 ### 메인 화면
-![메인 화면](./docs/readme-img/readme-mdi-boot-index.png)

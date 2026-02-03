@@ -1,4 +1,4 @@
-Beans by IoC Container : 291
+Beans by IoC Container : 292
 1-applicationAvailability
 2-applicationTaskExecutor
 3-applicationTaskExecutorAsyncConfigurer
@@ -286,7 +286,8 @@ Beans by IoC Container : 291
 285-viewControllerHandlerMapping
 286-viewNameTranslator
 287-viewResolver
-288-webServerFactoryCustomizerBeanPostProcessor
-289-websocketServletWebServerCustomizer
-290-welcomePageHandlerMapping
-291-welcomePageNotAcceptableHandlerMapping
+288-webConfig
+289-webServerFactoryCustomizerBeanPostProcessor
+290-websocketServletWebServerCustomizer
+291-welcomePageHandlerMapping
+292-welcomePageNotAcceptableHandlerMapping

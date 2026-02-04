@@ -46,7 +46,6 @@ dist/*.jar
 # SSL
 application.properties
 application.yml
-keystore.p12
 
 application-dev.properties
 application-dev-user-maria.properties

@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:4082b0f8-0dd7-4aad-a9f5-6955165df250",
+  "serialNumber" : "urn:uuid:73677614-2636-4006-aefd-bb60d5999251",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-02-04T09:55:24Z",
+    "timestamp" : "2026-02-05T13:26:59Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -6063,6 +6063,315 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.2?type=jar"
+    },
+    {
+      "publisher" : "MyBatis.org",
+      "group" : "org.mybatis.spring.boot",
+      "name" : "mybatis-spring-boot-starter",
+      "version" : "3.0.3",
+      "description" : "Spring Boot Support for MyBatis",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1ba7d0274f7b5236a22d121ecc0f7011"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "19528356bf8bad2be5f8bf796dfc30bcc4996054"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0f4b3184826877689c5555ad41d893cf75c0dfe290baf1706d1d23c11ad525c3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "14f10076d13e8dbc88122a4e2ca49e0136b4df12d73f33afda64db6a090b4be94d2b0cc84cc8056a47b1f6bc4553bd9e6c20c126d1e3d284ea15f25efc9e6c17"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "677b093c7dd5532f103524419649aaf18f59bd12e4a06ab7697e80d3896351aa20a59f1aaa4d2bd2f418fdca655cfc4a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a3fbd856bea3e82714d41cab1a54bf10145e198785dea1ebe092615a2bed14be039c9cc85a9768c1a054588756438bc0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "cc29d90b2ad92ba1d03612789b536e186a7ad92b39971b5d75e4cf1270fc79ba"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0d2289158df9b165b078672a163ba90cdddd65fa87854ede513d7d29d12bbc504cec3c6e95e641c992db67567d17ef727c1bbd114396983c1ed7186bfb9f6d08"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@3.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-starter/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/mybatis/spring-boot-starter/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/mybatis/spring-boot-starter/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/forum/#!forum/mybatis-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/mybatis/spring-boot-starter/tree/master/mybatis-spring-boot-starter"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@3.0.3?type=jar"
+    },
+    {
+      "publisher" : "MyBatis.org",
+      "group" : "org.mybatis.spring.boot",
+      "name" : "mybatis-spring-boot-autoconfigure",
+      "version" : "3.0.3",
+      "description" : "Spring Boot Support for MyBatis",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "951060448d9330a424b875e1be42ec2d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b73a2effa4f60a2eeca98aa12ea3437faede0f73"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1a069e3e0b0bea831f9110dea0aab012347f234a9648a84e0d8c70d8586873b6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f1d7605ccfb9f8d7b2b91764b3fbd331bfed5454645b8bf428d840f4c9bfb82798b99ee9d3c12230ce24388b69613d138d68bf7c554685f48ec83a6998b5e0fd"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "169e355c5c90455251bca3e31d4c3996a6b0145ec6368a0595ee07e32422c685985f987f65ac79ad1003c8c497a36422"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d8e13420018cf3f214d8a9b3bfa336c4cf30d966c81d604f6d6e50c063d06eace0058f1e66c15c4c14b25bf5f0683e2f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fcc249164e10cae631ffd3e71898b88f759e0547aa727529d2a35eee16b88377"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "86bdd440ba07b7340b6b1cb65380d0003c3623276d804c807ea1ca38cd38a31e6ec843291b127089985c1e0fc1e681a656b59fc13eb04a9fd1f6d95e00bb57c8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure@3.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/mybatis/spring-boot-starter/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/mybatis/spring-boot-starter/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/forum/#!forum/mybatis-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/mybatis/spring-boot-starter/tree/master/mybatis-spring-boot-autoconfigure"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure@3.0.3?type=jar"
+    },
+    {
+      "publisher" : "MyBatis.org",
+      "group" : "org.mybatis",
+      "name" : "mybatis",
+      "version" : "3.5.14",
+      "description" : "The MyBatis SQL mapper framework makes it easier to use a relational database with object-oriented applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "57ac115587e4597fcd802d3aa2e622c1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0d94d2267d1caf1c31748123e671dcea5ad1a6f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4adf00dc82241f33659858c5f5b3d4a200905eb20dd61d2d3ba64dc9e8b25f95"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "53279870adff05a7bd87e100ebaa7587af6e810df7da063098de813808ce929d4bc26dcd4eebde18009676399bc4877e3c91b53294de96ff6dc0ea1ff68c898a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e09dee0c26743c3f5d624c41721c2481b9bea2d2a58b5532d26cbdca614e839c57c989572c8b35b6b4f0c3824ec4b081"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "470111f586c49fee7c0dea8fabc2f3dd6e1d8f70fbd6f72ac50de026d2e98600caa4359ef303407043055ef0ca754f00"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "980f0aa3529a62b0fd3f6c7ec0ef1b515e0d497efbebbe801d58e35f7d231d6b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c38bffc457356b1d8785836128f08a7e6f55a01521cece48316a28ed44816eca4c249581edbd07c9e8cec8641ff3e81cbe9cb23842433e12e170549cc093b9b8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.mybatis.org/mybatis-3"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/mybatis/mybatis-3/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/mybatis/mybatis-3/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/forum/#!forum/mybatis-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/mybatis/mybatis-3"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar"
+    },
+    {
+      "publisher" : "MyBatis.org",
+      "group" : "org.mybatis",
+      "name" : "mybatis-spring",
+      "version" : "3.0.3",
+      "description" : "An easy-to-use Spring bridge for MyBatis sql mapping framework.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "54e03a82b96879aaa7dde2b205317ee4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5a4ab31bfb62bca615b39ade93de2a607e9b9403"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "05d660d7d3f156dd957b182a49f5e53f29ac7a4179cf6caaa4ba3f6e76a2e97b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d9dd89a41ac456f26e28c533970df249c3781b4a675c286eef7b73937cf5c6d9c81643b144ffb34c44c9c99fe2b7d1aa46a36b35aeb21e53ec65a59aae0528ab"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8de7111d9298c44577650d004fd319cdba6aab0ec4c2ada26b0da31363cc1f7b1a201d7c6e11cf5793cd76f655fbf82d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "05aa322a93f9f7288aa3a2e3e2a65cf5255226fee7a2f8f42f287aa5d54ce70096f674630d2127a3f3c65458865c6876"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7c31f93da109d142aef13ff91cb212624e54a69400b68cfccec687a1632b74e7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "90ebfb1e4c20b4b5bcec7028c81198fa59620563411bf9432c79b426abc3f76910109403ebccbe78d60e1e507e78877896434b5b6fd3fc513f7cced9bd2eb092"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mybatis/mybatis-spring@3.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.mybatis.org/spring/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/mybatis/spring/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/mybatis/spring/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/forum/#!forum/mybatis-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/mybatis/spring"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mybatis/mybatis-spring@3.0.3?type=jar"
     }
   ],
   "dependencies" : [
@@ -6081,7 +6390,8 @@
         "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@12.4.2.jre11?type=jar",
         "pkg:maven/org.mindrot/jbcrypt@0.4?type=jar",
         "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
-        "pkg:maven/net.logstash.logback/logstash-logback-encoder@7.2?type=jar"
+        "pkg:maven/net.logstash.logback/logstash-logback-encoder@7.2?type=jar",
+        "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@3.0.3?type=jar"
       ]
     },
     {
@@ -6629,6 +6939,30 @@
       "dependsOn" : [
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.2?type=jar"
       ]
+    },
+    {
+      "ref" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-starter@3.0.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.springframework.boot/spring-boot-starter@3.5.5?type=jar",
+        "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@3.5.5?type=jar",
+        "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure@3.0.3?type=jar",
+        "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar",
+        "pkg:maven/org.mybatis/mybatis-spring@3.0.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure@3.0.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@3.5.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.mybatis/mybatis-spring@3.0.3?type=jar",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.springframework/spring-jcl@6.2.10?type=jar",
